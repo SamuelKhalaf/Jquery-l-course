@@ -1,0 +1,37 @@
+.test {
+    color: blue;
+    display: none;
+}
+.test1 {
+    color: #f00;
+}
+.input-group {
+    position: relative;
+    margin-bottom: 15px;
+}
+
+.form-control {
+    width: 100%;
+    padding-right: 40px; /* Leave space for the icon */
+    box-sizing: border-box;
+}
+
+.icon {
+    position: absolute;
+    top: 50%;
+    right: 10px; /* Adjust for RTL layout */
+    transform: translateY(-50%);
+    font-size: 16px;
+    color: gray; /* Default color */
+    display: none; /* Hidden by default */
+}
+
+.icon.success {
+    color: green;
+    display: inline-block;
+}
+
+.icon.error {
+    color: red;
+    display: inline;
+}
